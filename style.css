@@ -20,11 +20,6 @@ a {
     color: inherit;
 }
 
-.container {
-    padding: 96px 0;
-}
-
-
 img {
     width: 100%;
 }
@@ -49,11 +44,8 @@ img {
     flex-direction: column;
 }
 
-.container{
-    width: 100%;
-    max-width: 1280px;
-    flex-direction: column;
-    margin: 0 auto;
+.container {
+    padding: 96px 0;
 }
 
 .purple {
@@ -94,24 +86,15 @@ main {
 
 .header__email{
     width: 100%;
+    max-width: 448px;
     position: relative;
     align-items: center;
 }
 
 .header__email--input{
-width: 100%;
-    border-radius: 500px;
-    border: 2px solid rgb(229, 231, 235);
-    padding: 20px 192px 20px 32px;
-    color: rgb(36, 62, 99);
-    font-size: 16px;
-    font-weight: 500;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    z-index: 1;
-    transition: border-color 300ms;
-}
+border-radius: 100px;
+padding: 27px;
+width: 100%}
 
 .header__customers--title{
     margin-top: 10px;
@@ -132,23 +115,18 @@ width: 100%;
     font-weight: 600;
 }
 
-.header__email--btn:hover{
-    background-color: #4b0fbf;
-}
-
-.header__email--btn{
-    z-index: 2;
-    margin: 8px;
-    height: calc(100% - 16px);
-    border-radius: 500px;
-    width: 160px;
-    border: none;
-    background-color: #6415ff;
-    color: #fff;
-    font-weight: 700;
-    font-size: 16px;
-    transition: all 300ms ease;
-}
+.nav__link--primary2{
+    position: relative;
+    right: 5px;
+    font-size: medium;
+    margin-left: 5px;
+    padding: 8px 16px; 
+    background-color: #6415FF; 
+    color: white; 
+    border: none; 
+    border-radius: 100px;
+    top: 5px;
+} 
 
 nav {
     display: flex;
@@ -185,9 +163,10 @@ nav {
 }   
 
 .nav__links {
-   display: flex;
-    align-items: center;
-    padding-bottom: 2px;
+    padding-right: 20px;
+    margin: 20px 10px;
+    display: flex;
+    list-style-type: none;
 }
 
 .nav__link {
@@ -333,17 +312,10 @@ QUALITY WORK ↓
 
 */
 
-.row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .row__narrow {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    gap: 32px;
 }
 
 .section__tag{
