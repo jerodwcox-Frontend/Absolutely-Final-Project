@@ -61,6 +61,8 @@ main {
     flex: 1 0 auto;
 }
 
+
+
 .header {
   display: flex;
   align-items: center;
@@ -98,6 +100,14 @@ width: 100%}
 
 .header__customers--title{
     margin-top: 10px;
+}
+
+/* quality work nav */
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav__link{
