@@ -108,7 +108,9 @@ main {
     z-index: 1;
     transition: border-color 300ms;
 }
-
+.header__email { position: relative; }
+.header__email--input { z-index: 1; padding-right: 140px; }
+.nav__link--btn { position: absolute; right: 6px; top: 50%; transform: translateY(-50%); z-index: 2; }
 nav__link--btn
 
 .header__customers--title{
