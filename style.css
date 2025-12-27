@@ -553,6 +553,10 @@ PRICING ↓
     color: rgb(26 32 44);
     box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }
+.plan:nth-child(1) .plan__stripe, .plan:nth-child(1) .plan__button {
+    color: #f7fafc;
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
 .plan__stripe {
     position: absolute;
     left: 0;
@@ -570,6 +574,77 @@ PRICING ↓
     text-transform: uppercase;
     line-height: 1.625;
 }
+.plan:nth-child(odd) .plan__name, 
+.plan:nth-child(odd) .plan__price, 
+.plan:nth-child(odd) .plan__target {
+    color: #1a202c;
+}
+.plan__name {
+    font-size: 20px;
+}
+.plan__name, .plan__price, .plan__duration {
+    font-weight: bold;
+    line-height: 1.625;
+}
+.plan:nth-child(1) .plan__middle, .plan:nth-child(3) .plan__middle {
+    border-top: 2px solid rgb(229, 231, 235);
+    border-bottom: 2px solid rgb(229, 231, 235);
+}
+.plan__middle {
+    margin-left: -2rem;
+    margin-right: -2rem;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    padding: 2rem;
+}
+.plan:nth-child(odd) .plan__name, .plan:nth-child(odd) .plan__price, .plan:nth-child(odd) .plan__target {
+    color: #1a202c;
+}
+.plan__target {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.025em;
+}
+.plan__feature {
+    margin-top: 20px;
+    font-weight: 500;
+    color: #718096;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.plan__feature {
+    margin-top: 20px;
+    font-weight: 500;
+    color: #718096;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.plan__feature {
+    margin-top: 20px;
+    font-weight: 500;
+    color: #718096;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.plan__feature {
+    margin-top: 20px;
+    font-weight: 500;
+    color: #718096;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* 
+Middle card 
+*/
+
+.plan:nth-child(2) {
+    background: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+}
 
 .plan:nth-child(1) .plan__middle, .plan:nth-child(3) .plan__middle {
     border-top: 2px solid rgb(229, 231, 235);
@@ -585,6 +660,17 @@ PRICING ↓
     border-bottom-width: 2px;
     padding: 2rem;
 }
+@media (max-width: 1280px) {
+    .plan__bottom {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+/* 
+Bottom section of each plan card 
+*/
+
 .plan__bottom {
     padding-left: 4rem;
     padding-right: 4rem;
