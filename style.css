@@ -525,7 +525,8 @@ VALUES ↓
 }
 
 .btn {
-position: absolute;}   
+display: flex;
+position: ;}   
 
 
 
