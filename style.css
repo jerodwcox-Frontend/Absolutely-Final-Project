@@ -492,10 +492,14 @@ VALUES ↓
 .values__list {
     margin-left: 0px;
     margin-right: 0px;
+    margin-top: 32px;
+    margin-bottom: 32px;
     display: flex;
     max-width: none;
     flex-direction: row;
+    gap: 32px;
 }
+
 @media (max-width: 800px) {
     .value {
         margin-top: 2.5rem;
@@ -527,7 +531,6 @@ VALUES ↓
 .btn {
 display: flex;
 position: ;}   
-
 
 
 /*
