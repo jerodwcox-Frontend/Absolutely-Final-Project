@@ -1,0 +1,29 @@
+.container{
+    padding: 96px 0px;
+}
+
+*{
+    box-sizing : border-box;
+    font-family: inter, sans-serif;
+    color: rgb(36, 62, 99);
+    margin: 0px;
+    padding: 0px;
+}
+
+style {
+    display: none;
+}
+
+div{
+    display: block;
+    unicode-bidi: isolate;
+}
+@media (max-width: 1024px) {
+    .header__description--para {
+        margin: 20px 0;
+    }
+}
+body {
+    display: block;
+    margin: 8px;
+}

@@ -233,7 +233,7 @@ main {
     width: 100%;
     border-radius: 500px;
     border: 2px solid rgb(229, 231, 235);
-    padding: 140px
+    padding: 140px;
     font-size: 24px;
     font-weight: 500;
     position: absolute;
@@ -299,6 +299,10 @@ nav {
 }
 
 .nav__row {
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Adjust padding as needed */
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -354,6 +358,10 @@ nav {
     font-weight: 400;
     margin: 0 16px;
     display: flex;
+}
+
+.logo {
+    display: none;
 }
 
 .btn__menu {
@@ -1170,6 +1178,7 @@ MOBILE RESPONSIVENESS ↓
 
 /* Show only hamburger below 1200px */
 @media (max-width: 1200px) {
+  .logo { display: block; }
   .btn__menu { display: block; }
   .nav__links { display: none; }
 }
